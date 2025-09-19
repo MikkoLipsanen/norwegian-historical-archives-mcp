@@ -27,7 +27,7 @@ The server can be used to provide data for LLM, which performs the queries based
         "run",
         "--with",
         "fastmcp",
-        "/path/to/norwegian_search_api_mcp.py"
+        "/path/to/mcp-server.py"
       ]
     }
   }
