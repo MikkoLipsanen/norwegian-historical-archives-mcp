@@ -23,7 +23,12 @@ The server can be used to provide data for LLM, which performs the queries based
     "Norwegian Historical Archives Search Server": {
       "command": "/path/to/virtual/environment",
       "transport": "stdio",
-      "args": ["/path/to/norwegian_search_api_mcp.py"]
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "/path/to/norwegian_search_api_mcp.py"
+      ]
     }
   }
 }
